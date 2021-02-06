@@ -1,13 +1,12 @@
-# Trip Service Test
+# Testing legacy code: Hard-wired dependencies
+============================================
 
-O teste consiste em:
-
-1 - Ler e entender a classe TripService.
-
-2 - Desenvolver os testes da classe TripServiceTest.java.
-    
-    Somente utilizar os recursos da IDE para realizar o Refactor da classe TripService ex:(inline, extract Method etc...).
-    
-    Não realizar otras alterações no código da classe TripService neste momento.
-
-3 - Realizar o refactor da classe TripService garantindo a integridade dos testes da classe de teste.
+#### Exercise: 
+* Add unit test (starts with TripService)
+* When all the lines are covered (you can use Coverage tool) you can start the refactoring.
+#### Constrains:
+* We can't change any existing code if not covered by tests. 
+* The only exception is if we need to change the code to add unit tests, but in this case, just automated refactorings (via IDE) are allowed.
+#### Recomendations:
+* Start testing from shortest to deepest branch
+* Start refactoring from deepest to shortest branch
