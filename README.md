@@ -7,6 +7,4 @@
 #### Constrains:
 * We can't change any existing code if not covered by tests. 
 * The only exception is if we need to change the code to add unit tests, but in this case, just automated refactorings (via IDE) are allowed.
-#### Recomendations:
-* Start testing from shortest to deepest branch
-* Start refactoring from deepest to shortest branch
+
